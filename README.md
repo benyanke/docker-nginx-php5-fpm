@@ -1,4 +1,4 @@
-# Docker Nginx - PHP5 FPM for Laravel
+# Nginx + PHP5-FPM docker image for Laravel
 
 This is a [Docker](http://www.docker.com) image for [Nginx](http://nginx.org/) and [PHP5 FPM](http://php-fpm.org/) suited to run [Laravel PHP Framework](http://laravel.com/).
 
@@ -13,4 +13,6 @@ This image works well with the below related images.
 
 ---
 
-:ok_hand: Happy Coding. If you have any feedback or questions, feel free to contact me on Twitter with [@vcarreira](https://twitter.com/vcarreira) or email with [vitor.carreira@gmail.com](mailto:vitor.carreira@gmail.com).
+:ok_hand: Happy Coding. 
+
+If you have any feedback or questions, feel free to contact me on Twitter with [@vcarreira](https://twitter.com/vcarreira) or email with [vitor.carreira@gmail.com](mailto:vitor.carreira@gmail.com).
