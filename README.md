@@ -13,4 +13,4 @@ This image works well with the below related images.
 
 ---
 
-:ok_hand: Happy Coding [Vitor Carreira](http://github.com/vcarreira)
+:ok_hand: Happy Coding. If you have any feedback or questions, feel free to contact me on Twitter with [@vcarreira](https://twitter.com/vcarreira) or email with [vitor.carreira@gmail.com](mailto:vitor.carreira@gmail.com).
