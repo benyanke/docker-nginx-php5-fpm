@@ -8,13 +8,9 @@ RUN apt-get update && DEBIAN_FRONTEND=noninteractive \
     apt-get install -y \
     nginx \
     php5-fpm \
-    supervisor
+    supervisor && apt-get clean && rm -rf /var/lib/apt/lists/*
 
-RUN apt-get clean && rm -rf /var/lib/apt/lists/*
-
-RUN mkdir -p /etc/nginx
-RUN mkdir -p /var/run/php-fpm
-RUN mkdir -p /var/log/supervisor
+RUN mkdir -p /etc/nginx /var/run/php-fpm /var/log/supervisor
 
 COPY nginx.conf /etc/nginx/nginx.conf
 COPY nginx-supervisor.conf /etc/supervisor/conf.d/nginx.conf
